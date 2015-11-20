@@ -2,6 +2,11 @@
 Changelog for package ridgeback_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2015-11-20)
+------------------
+* Fixed dependency.
+* Contributors: Tony Baltovski
+
 0.1.1 (2015-11-20)
 ------------------
 * Added lighting.
