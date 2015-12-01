@@ -2,6 +2,9 @@
 Changelog for package ridgeback_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.4 (2015-12-01)
+------------------
+
 0.1.3 (2015-11-20)
 ------------------
 * Install the ridgeback_node target.
