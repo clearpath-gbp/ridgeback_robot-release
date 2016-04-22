@@ -2,6 +2,13 @@
 Changelog for package ridgeback_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.6 (2016-04-22)
+------------------
+* Combined hostname and version for hardware ID.
+* Fixed initialization of constant doubles.
+* Added hardware ID based hostname.
+* Contributors: Tony Baltovski
+
 0.1.5 (2016-03-02)
 ------------------
 * Fixed state order for lighting.
