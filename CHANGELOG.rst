@@ -2,6 +2,9 @@
 Changelog for package ridgeback_robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2018-08-02)
+------------------
+
 0.2.0 (2018-05-23)
 ------------------
 * Updated to package format 2.
