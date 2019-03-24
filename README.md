@@ -1,3 +1,29 @@
+## ridgeback_robot (indigo) - 0.1.9-0
+
+The packages in the `ridgeback_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo ridgeback_robot` on `Sun, 24 Mar 2019 00:05:45 -0000`
+
+These packages were released:
+- `ridgeback_base`
+- `ridgeback_bringup`
+- `ridgeback_robot`
+
+Version of package(s) in repository `ridgeback_robot`:
+
+- upstream repository: https://github.com/ridgeback/ridgeback_robot.git
+- release repository: https://github.com/clearpath-gbp/ridgeback_robot-release.git
+- rosdistro version: `0.1.8-0`
+- old version: `0.1.8-0`
+- new version: `0.1.9-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## ridgeback_robot (kinetic) - 0.2.2-0
 
 The packages in the `ridgeback_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release ridgeback_robot -t kinetic -r kinetic` on `Thu, 02 Aug 2018 19:54:37 -0000`
