@@ -2,6 +2,9 @@
 Changelog for package ridgeback_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2019-03-23)
+------------------
+
 0.2.1 (2018-08-02)
 ------------------
 * Updated default IPs for Kinetic
