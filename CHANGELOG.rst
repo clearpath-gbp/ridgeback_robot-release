@@ -2,6 +2,9 @@
 Changelog for package ridgeback_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.9 (2019-03-23)
+------------------
+
 0.1.8 (2018-05-23)
 ------------------
 * Added Sick S300 laser and Microstrain IMU upgrade accessories.
