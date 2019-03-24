@@ -2,14 +2,23 @@
 Changelog for package ridgeback_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.9 (2019-03-23)
+0.2.3 (2019-03-23)
 ------------------
 
-0.1.8 (2018-05-23)
+0.2.1 (2018-08-02)
 ------------------
+* Updated default IPs for Kinetic
+* [ridgeback_bringup] Fixed test dep.
+* Contributors: Dave Niewinski, Tony Baltovski
+
+0.2.0 (2018-05-23)
+------------------
+* Updated to package format 2.
+* [ridgeback_base] Switched to rosserial_server_udp.
+* Updated bringup for kinetic
 * Added Sick S300 laser and Microstrain IMU upgrade accessories.
 * Updated maintainer.
-* Contributors: Tony Baltovski
+* Contributors: Dave Niewinski, Tony Baltovski
 
 0.1.7 (2016-10-03)
 ------------------
