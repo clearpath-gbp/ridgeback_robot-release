@@ -2,6 +2,11 @@
 Changelog for package ridgeback_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2019-03-23)
+------------------
+* [ridgeback_base] Updated compute_calibration to use a MagneticField message.
+* Contributors: Tony Baltovski
+
 0.2.1 (2018-08-02)
 ------------------
 
