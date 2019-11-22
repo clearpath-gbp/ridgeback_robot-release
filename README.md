@@ -1,3 +1,29 @@
+## ridgeback_robot (melodic) - 0.2.4-1
+
+The packages in the `ridgeback_robot` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic ridgeback_robot` on `Fri, 22 Nov 2019 16:59:07 -0000`
+
+These packages were released:
+- `ridgeback_base`
+- `ridgeback_bringup`
+- `ridgeback_robot`
+
+Version of package(s) in repository `ridgeback_robot`:
+
+- upstream repository: https://github.com/ridgeback/ridgeback_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.17.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## ridgeback_robot (kinetic) - 0.2.4-1
 
 The packages in the `ridgeback_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic ridgeback_robot` on `Fri, 22 Nov 2019 16:56:00 -0000`
