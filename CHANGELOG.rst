@@ -2,6 +2,20 @@
 Changelog for package ridgeback_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.0 (2020-11-12)
+------------------
+* [ridgeback_base] Added dependency.
+* [ridgeback_base] Updated to use new functions from puma_motor_drivers.
+* [ridgeback_base] Used ros::ok() for while condition on thread loops.
+* Updates for C++11.
+* Contributors: Tony Baltovski
+
+0.2.6 (2020-11-12)
+------------------
+* Bump CMake version to avoid CMP0048 warning.
+* [ridgeback_base] Fixed missing forward slash.
+* Contributors: Tony Baltovski
+
 0.2.5 (2020-10-19)
 ------------------
 * Use eval + find to properly load the default mag config file
