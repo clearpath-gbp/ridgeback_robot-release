@@ -2,6 +2,12 @@
 Changelog for package ridgeback_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2021-06-15)
+------------------
+* [ridgeback_bringup] Made ros service start after can-udp-bridge service.
+* [ridgeback_bringup] Removed connman config.
+* Contributors: Tony Baltovski
+
 0.3.0 (2020-11-12)
 ------------------
 * [ridgeback_bringup] Increased CAN TX queue size.
