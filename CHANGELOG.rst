@@ -2,6 +2,9 @@
 Changelog for package ridgeback_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2021-06-15)
+------------------
+
 0.3.0 (2020-11-12)
 ------------------
 * [ridgeback_base] Added dependency.
