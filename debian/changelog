@@ -1,0 +1,136 @@
+ros-noetic-ridgeback-base (0.4.0-1focal) focal; urgency=high
+
+  * Update the scipy dependency to Python3
+  * Contributors: Chris Iverach-Brereton
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sat, 15 Jan 2022 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.3.1-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 15 Jun 2021 04:00:00 -0000
+
+ros-noetic-ridgeback-base (0.3.0-1focal) focal; urgency=high
+
+  * [ridgeback_base] Added dependency.
+  * [ridgeback_base] Updated to use new functions from puma_motor_drivers.
+  * [ridgeback_base] Used ros::ok() for while condition on thread loops.
+  * Updates for C++11.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 12 Nov 2020 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.2.6-1focal) focal; urgency=high
+
+  * Bump CMake version to avoid CMP0048 warning.
+  * [ridgeback_base] Fixed missing forward slash.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 12 Nov 2020 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.2.5-1focal) focal; urgency=high
+
+  * Use eval + find to properly load the default mag config file
+  * Added RIDGEBACK_MAG_CONFIG to madgwick filter and set a default optenv
+  * Removed env-hooks
+  * Contributors: Chris Iverach-Brereton, Dave Niewinski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 19 Oct 2020 04:00:00 -0000
+
+ros-noetic-ridgeback-base (0.2.4-1focal) focal; urgency=high
+
+  * Merge pull request #26 <https://github.com/ridgeback/ridgeback_robot/issues/26> from ridgeback/RPSW-119
+    Added the ability to disable using the MCU
+  * [ridgeback_base] Added param type for use_mcu.
+  * [ridgeback_base] Added lighting and cooling under use_mcu flag.
+  * [ridgeback_base] Added envar for using MCU.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 22 Nov 2019 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.2.3-1focal) focal; urgency=high
+
+  * [ridgeback_base] Updated compute_calibration to use a MagneticField message.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sat, 23 Mar 2019 04:00:00 -0000
+
+ros-noetic-ridgeback-base (0.2.1-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 02 Aug 2018 04:00:00 -0000
+
+ros-noetic-ridgeback-base (0.2.0-1focal) focal; urgency=high
+
+  * [ridgeback_base] Added absolute value checking for fans.
+  * Updated to package format 2.
+  * [ridgeback_base] Switched to rosserial_server_udp.
+  * Updated bringup for kinetic
+  * [ridgeback_base] Fixed a typo.
+  * Updated maintainer.
+  * Fixed temperature warning for PCB and MCU temperature.
+  * Contributors: Dave Niewinski, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 23 May 2018 04:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.7-1focal) focal; urgency=high
+
+  * Removed GPS dependencies.
+  * Contributors: Johannes Meyer, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 03 Oct 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.6-1focal) focal; urgency=high
+
+  * Combined hostname and version for hardware ID.
+  * Fixed initialization of constant doubles.
+  * Added hardware ID based hostname.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 22 Apr 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.5-1focal) focal; urgency=high
+
+  * Fixed state order for lighting.
+  * Separated passive joint into header.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 02 Mar 2016 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.4-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 01 Dec 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.3-1focal) focal; urgency=high
+
+  * Install the ridgeback_node target.
+  * Contributors: Mike Purvis
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 20 Nov 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.2-1focal) focal; urgency=high
+
+  * Fixed dependency.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 20 Nov 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.1-1focal) focal; urgency=high
+
+  * Added lighting.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 20 Nov 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-base (0.1.0-1focal) focal; urgency=high
+
+  * Initial Ridgeback release.
+  * Contributors: Mike Purvis, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 19 Nov 2015 05:00:00 -0000
+
+
