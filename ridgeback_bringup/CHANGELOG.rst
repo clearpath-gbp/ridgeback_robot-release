@@ -2,6 +2,9 @@
 Changelog for package ridgeback_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.0 (2022-01-15)
+------------------
+
 0.3.1 (2021-06-15)
 ------------------
 * [ridgeback_bringup] Made ros service start after can-udp-bridge service.
