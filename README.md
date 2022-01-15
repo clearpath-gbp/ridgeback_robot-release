@@ -1,3 +1,29 @@
+## ridgeback_robot (noetic) - 0.4.0-1
+
+The packages in the `ridgeback_robot` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic ridgeback_robot` on `Sat, 15 Jan 2022 19:23:02 -0000`
+
+These packages were released:
+- `ridgeback_base`
+- `ridgeback_bringup`
+- `ridgeback_robot`
+
+Version of package(s) in repository `ridgeback_robot`:
+
+- upstream repository: https://github.com/ridgeback/ridgeback_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## ridgeback_robot (melodic) - 0.3.1-1
 
 The packages in the `ridgeback_robot` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic ridgeback_robot` on `Tue, 15 Jun 2021 17:51:29 -0000`
