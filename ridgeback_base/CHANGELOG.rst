@@ -2,13 +2,8 @@
 Changelog for package ridgeback_base
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.4.1 (2022-03-21)
+0.3.2 (2022-05-17)
 ------------------
-
-0.4.0 (2022-01-15)
-------------------
-* Update the scipy dependency to Python3
-* Contributors: Chris Iverach-Brereton
 
 0.3.1 (2021-06-15)
 ------------------
