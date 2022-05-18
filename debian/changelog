@@ -1,0 +1,137 @@
+ros-noetic-ridgeback-bringup (0.4.2-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 17 May 2022 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.4.1-1focal) focal; urgency=high
+
+  * [ridgeback_bringup] Updated install script to explicitly use Python3.
+  * Change the can-udp-bringup to use ip instead of ifconfig (#35 <https://github.com/ridgeback/ridgeback_robot/issues/35>)
+    * Change the can-udp-bringup to use ip instead of ifconfig
+    * Fix the txqueue length
+    * For consistency stick with "link set can0" and not "link set dev can0"
+  * Contributors: Chris I-B, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 21 Mar 2022 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.4.0-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sat, 15 Jan 2022 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.3.1-1focal) focal; urgency=high
+
+  * [ridgeback_bringup] Made ros service start after can-udp-bridge service.
+  * [ridgeback_bringup] Removed connman config.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 15 Jun 2021 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.3.0-1focal) focal; urgency=high
+
+  * [ridgeback_bringup] Increased CAN TX queue size.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 12 Nov 2020 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.2.6-1focal) focal; urgency=high
+
+  * Bump CMake version to avoid CMP0048 warning.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 12 Nov 2020 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.2.5-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 19 Oct 2020 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.2.4-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 22 Nov 2019 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.2.3-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Sat, 23 Mar 2019 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.2.1-1focal) focal; urgency=high
+
+  * Updated default IPs for Kinetic
+  * [ridgeback_bringup] Fixed test dep.
+  * Contributors: Dave Niewinski, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 02 Aug 2018 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.2.0-1focal) focal; urgency=high
+
+  * Updated to package format 2.
+  * [ridgeback_base] Switched to rosserial_server_udp.
+  * Updated bringup for kinetic
+  * Added Sick S300 laser and Microstrain IMU upgrade accessories.
+  * Updated maintainer.
+  * Contributors: Dave Niewinski, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 23 May 2018 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.7-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Mon, 03 Oct 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.6-1focal) focal; urgency=high
+
+  * Specified max/min angles for Hokuyo UST-10LX.
+  * Added support for Hokuyo URG-10LX.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 22 Apr 2016 04:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.5-1focal) focal; urgency=high
+
+  * Removed br0 interface from upstart job to default to hostname.
+  * Contributors: Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Wed, 02 Mar 2016 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.4-1focal) focal; urgency=high
+
+  * Added manufacturer to laser environment variables.
+  * Installed robot_upstart install script with connman and can-udp-bridge.conf.
+  * Contributors: Mike Purvis, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Tue, 01 Dec 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.3-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 20 Nov 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.2-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 20 Nov 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.1-1focal) focal; urgency=high
+
+
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Fri, 20 Nov 2015 05:00:00 -0000
+
+ros-noetic-ridgeback-bringup (0.1.0-1focal) focal; urgency=high
+
+  * Initial Ridgeback release.
+  * Contributors: Mike Purvis, Tony Baltovski
+
+ -- Tony Baltovski <tbaltovski@clearpathrobotics.com>  Thu, 19 Nov 2015 05:00:00 -0000
+
+
