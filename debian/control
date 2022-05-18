@@ -1,0 +1,12 @@
+Source: ros-melodic-ridgeback-bringup
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch
+Homepage: http://wiki.ros.org/Robots/Ridgeback
+Standards-Version: 3.9.2
+
+Package: ros-melodic-ridgeback-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-cob-sick-s300, ros-melodic-lms1xx, ros-melodic-microstrain-3dmgx2-imu, ros-melodic-ridgeback-base, ros-melodic-robot-upstart (>= 0.1.1), ros-melodic-urg-node
+Description: Scripts for installing Ridgeback's robot software.
