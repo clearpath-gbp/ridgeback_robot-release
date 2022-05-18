@@ -2,6 +2,9 @@
 Changelog for package ridgeback_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.2 (2022-05-17)
+------------------
+
 0.4.1 (2022-03-21)
 ------------------
 * [ridgeback_bringup] Updated install script to explicitly use Python3.
