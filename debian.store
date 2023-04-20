@@ -1,1 +1,1 @@
-{"trim": "", "base": "0a26626", "trimbase": "", "parent": "debian/noetic/ridgeback_robot", "previous": "e321a57"}
+{"base": "709e27f", "parent": "debian/noetic/ridgeback_robot", "previous": "1d6cda1", "trim": "", "trimbase": ""}
