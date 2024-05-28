@@ -1,0 +1,12 @@
+Source: ros-noetic-ridgeback-base
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-controller-manager, ros-noetic-diagnostic-updater, ros-noetic-geometry-msgs, ros-noetic-hardware-interface, ros-noetic-puma-motor-driver (>= 0.3.0), ros-noetic-puma-motor-msgs, ros-noetic-realtime-tools, ros-noetic-ridgeback-msgs, ros-noetic-roscpp, ros-noetic-roslaunch <!nocheck>, ros-noetic-roslint <!nocheck>, ros-noetic-rosserial-server, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Homepage: http://wiki.ros.org/Robots/Ridgeback
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ridgeback-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-scipy, ros-noetic-controller-manager, ros-noetic-diagnostic-aggregator, ros-noetic-diagnostic-updater, ros-noetic-diff-drive-controller, ros-noetic-geometry-msgs, ros-noetic-imu-filter-madgwick, ros-noetic-puma-motor-driver (>= 0.3.0), ros-noetic-puma-motor-msgs, ros-noetic-realtime-tools, ros-noetic-ridgeback-control, ros-noetic-ridgeback-description, ros-noetic-ridgeback-msgs, ros-noetic-rosserial-python, ros-noetic-rosserial-server, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-teleop-twist-joy, ros-noetic-tf, ros-noetic-topic-tools, socat
+Description: Ridgeback's mobility and sensor base.
